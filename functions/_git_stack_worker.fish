@@ -28,7 +28,7 @@ function _git_stack_worker --description 'Background worker function for git sta
     set -g __fish_git_prompt_color_branch brpurple
     set -g __fish_git_prompt_color_branch_detached brred
     set -g __fish_git_prompt_color_dirtystate brred
-    set -g __fish_git_prompt_color_stagedstate bryellow
+    set -g __fish_git_prompt_color_stagedstate brgreen
     set -g __fish_git_prompt_color_invalidstate brred
     set -g __fish_git_prompt_color_untrackedfiles 808080
     set -g __fish_git_prompt_color_stashstate brblue
