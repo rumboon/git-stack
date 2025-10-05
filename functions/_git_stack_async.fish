@@ -20,7 +20,7 @@ function _git_stack_async --description 'Asynchronously generate git stack infor
     end
 
     # Start async git prompt generation using worker function
-    fish --private -c "_git_stack_worker $_git_stack_info" &
+    fish --private -c "_git_stack_worker $_git_stack_info" & disown
 
     set -g _git_last_pid $last_pid
 end
